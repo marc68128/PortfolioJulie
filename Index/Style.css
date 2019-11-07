@@ -1,0 +1,210 @@
+@font-face {
+	font-family: PoliceJulie;
+	src: url('../Polices/PoliceJulie.TTF');
+}
+
+@font-face {
+	font-family: PoliceJulie2;
+	src: url('../Polices/AAARGH.TTF');
+}
+
+body {
+    margin: 0; 
+    padding: 0; 
+    text-align: center;
+    height: 100%;
+    overflow: hidden;
+    background:#ffffff url("Images/fond_portfolio_lamelle.png") repeat right top;
+}
+a{
+	text-decoration: none;
+}
+
+
+#FollowerPoint{
+	position : absolute;
+    width: 8px;
+    height: 8px;
+    background-color : black;
+    border : 2px solid black; 
+    -Contactkit-border-radius: 250px / 250px;
+    -moz-border-radius:    250px / 250px; 
+    border-radius:         250px / 250px;
+}
+
+#Logo {
+    position: absolute; 
+    width : 450px; 
+    margin-left : -225px; 
+    left: 50%;
+    margin-top : 130px;
+}
+
+#cercle{
+	position: absolute;
+	margin-left : -254px; 
+    left: 50%;
+    margin-top : 110px;
+    width: 500px;
+    height: 500px;
+    border : 2px solid black; 
+    -Contactkit-border-radius: 250px / 250px;
+    -moz-border-radius:    250px / 250px; 
+    border-radius:         250px / 250px; 
+}
+
+
+#LinkAbout{
+	z-index: 2;
+	width: 350px;
+	position: relative; 
+	left : -274px; 
+	top : 50px;
+}
+ 
+
+#TextAbout{
+	display:inline;
+	color: black;
+	font-size : 50px;
+	margin: 20px;
+	font-family: PoliceJulie2, Tahoma;
+}
+
+#PointAbout{
+	display:inline-block;
+    width: 10px;
+    height: 10px;
+    border : 2px solid #d4145a; 
+    background-color : white;
+    -Contactkit-border-radius: 250px / 250px;
+    -moz-border-radius:    250px / 250px; 
+    border-radius:         250px / 250px; 
+}
+
+#LinkCv{
+	z-index: 2;
+	width: 300px;
+	position: relative; 
+	left : -183px; 
+	top : 270px;
+}
+
+
+
+#TextCv{
+	display:inline;
+	color: black;
+	font-size : 50px;
+	margin: 20px;
+	font-family: PoliceJulie2, Tahoma;
+}
+
+#PointCv{
+	position : relative; 
+	top: -20px;
+	display:inline-block;
+    width: 10px;
+    height: 10px;
+    border : 2px solid #93278f; 
+    background-color : white;
+    -Contactkit-border-radius: 250px / 250px;
+    -moz-border-radius:    250px / 250px; 
+    border-radius:         250px / 250px; 
+}
+
+#LinkRealisations{
+	z-index: 2;
+	width: 430px;
+	position: relative; 
+	left : 463px; 
+	top : -30px;
+}
+
+
+
+
+#PointRealisations{
+	display:inline-block;
+    width: 10px;
+    height: 10px;
+    border : 2px solid #f36f21; 
+    background-color : white;
+    -Contactkit-border-radius: 250px / 250px;
+    -moz-border-radius:    250px / 250px; 
+    border-radius:         250px / 250px; 
+}
+
+#TextRealisations{
+	display:inline-block;
+	color: black;
+	font-size : 50px;
+	margin: 20px;
+	font-family: PoliceJulie2, Tahoma;
+}
+
+#LinkContact{
+	z-index: 2;
+	width: 300px;
+	position: relative; 
+	left : 425px; 
+	top : 140px;
+}
+
+
+
+#PointContact{
+	position:relative; 
+	top: -20px;
+	display:inline-block;
+    width: 10px;
+    height: 10px;
+    border : 2px solid #e2be22; 
+    background-color : white;
+    -Contactkit-border-radius: 250px / 250px;
+    -moz-border-radius:    250px / 250px; 
+    border-radius:         250px / 250px; 
+}
+
+#TextContact{
+	display:inline-block;
+	color: black;
+	font-size : 50px;
+	margin: 20px;
+	font-family: PoliceJulie2, Tahoma;
+}
+
+#imgLogo{
+	display:inline;
+	width: 90%; 
+	position: relative;
+	top: 20px;
+}
+
+#About, #Cv, #Realisations, #Contact
+{
+	display:none;
+	position : absolute;
+	height: 300px; 
+	width: 300px;
+	border : 2px solid #d4145a; 
+    -Contactkit-border-radius: 300px / 300px;
+    -moz-border-radius:    300px / 300px; 
+    border-radius:         300px / 300px; 
+}
+
+
+
+footer{
+	padding:10px;
+	position: absolute; 
+	bottom: 0px; 
+	width : 100%;
+	background-color: #cac9c9;
+	font-family: PoliceJulie2, Tahoma;
+	font-size: 0.8em;
+}
+
+footer span{
+	font-family: PoliceJulie, Tahoma;
+}

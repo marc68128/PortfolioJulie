@@ -1,0 +1,105 @@
+#ContentContact{
+	position: relative; 
+	top: 40px; 
+
+}
+#ContentContact form{
+	float: right;
+	margin-right: 7%;
+	margin-top: 60px;
+}
+
+#ContentContact table{
+	padding: 20px; 
+	border-radius: 20px;
+}
+
+#ContentContact table tr td{
+	padding:5px;
+	text-align: left;
+	vertical-align: top;
+	line-height: 30px;
+	font-size: 20px;
+}
+
+#ContentContact table tr #tdSubmit{
+	text-align: right;
+}
+
+#ContentContact input[type="text"]
+{
+	padding-left: 4px;
+	padding-right : 4px;
+	width: 400px; 
+	height: 30px;
+	font-size: 20px;
+	font-family: PoliceJulie, Tahoma;
+	border-radius: 10px;
+	border:1px solid black;
+}
+
+#ContentContact input[type="text"]:focus
+{
+	outline: 0;
+	border:1px solid #f36f21;
+}
+
+#ContentContact textarea:focus
+{
+	outline: 0;
+	border:1px solid #f36f21;
+}
+
+
+#ContentContact input[type="submit"]
+{
+	width: 100px; 
+	height: 30px;
+	font-size: 20px;
+	font-family: PoliceJulie, Tahoma;
+	border-radius: 10px;
+}
+
+#ContentContact input[type="submit"]:hover
+{
+	border : 2px inset #AAAAAA;
+	cursor: pointer; 
+}
+
+#ContentContact textarea
+{
+	padding-left: 4px;
+	padding-right : 4px;
+	width: 399px; 
+	height: 200px;
+	resize: none;
+	font-size: 20px;
+	font-family: PoliceJulie, Tahoma;
+	border-radius: 10px;
+}
+
+
+#bulleContact{
+	margin-left:10%;
+	height: 500px; 
+	width:500px; 
+	border-radius: 250px;
+	border: 2px solid #93278f;
+	float: left;
+	font-size: 1.7em;
+}
+
+#bulleContact div{
+	margin-top: 110px;
+}
+
+
+#bulleContact h1{
+	color: #93278f;
+}
+
+#validFormMessage{
+	color : red;  
+	position: relative;
+	top:-50px;  
+}

@@ -1,0 +1,34 @@
+#AboutContent{
+	position: relative; 
+	top: 40px; 
+}
+#AboutText {
+	position:relative; 
+	top: 80px;
+	width: 30%; 
+	margin-left: 10%;
+	font-family: PoliceJulie, Tahoma; 
+	padding: 30px; 
+	font-size: 1.2em;
+	text-align: justify;
+	border-radius: 20px;
+	border: 2px solid #777777;
+	float: left;
+	background-color: rgba(255, 255, 255, 0.3);;
+}
+#AboutText h1{
+	text-align: center;
+	margin-top:0;
+	margin-bottom: 40px;
+}
+#AboutText span{
+	font-weight: bold;
+}
+#AboutImage{
+	width: 30%;
+	float: right; 	
+	margin-right: 13%
+}
+#AboutImage img{
+	width: 100%;
+}

@@ -1,0 +1,36 @@
+#ConteneurCV{
+	width : 70%; 
+	margin-left: 15%;
+	margin-top : 80px;
+	background-color: white; 
+	position: absolute; 
+	top: 40px; 
+	bottom: 70px;
+	overflow: hidden;
+	background: white url('../Images/wild_flowers.png') repeat;
+	
+}
+
+.mCSB_container{
+	border: 4px solid #777777;
+}
+
+#ConteneurCV img{
+	width: 100%;
+}
+#DivCvPdf{
+	position: absolute; 
+	width: 100%; 
+	text-align: center;
+	bottom: 45px;
+}
+
+#DivCvPdf a{
+	color: #404040;
+	text-decoration: none; 
+	font-family: PoliceJulie, Tahoma;
+}
+
+#DivCvPdf a:hover{
+	text-decoration: underline; 
+}

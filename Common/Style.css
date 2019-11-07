@@ -1,0 +1,176 @@
+@font-face {
+	font-family: PoliceJulie;
+	src: url('../Polices/PoliceJulie.TTF');
+}
+@font-face {
+	font-family: PoliceJulie2;
+	src: url('../Polices/AAARGH.TTF');
+}
+
+html, body {
+	margin: 0; 
+    padding: 0; 
+    text-align: center;
+    height: 100%;
+    overflow-x:hidden;
+    background-color: white;
+    background: white url('../Images/wild_flowers.png') repeat;
+    font-family: PoliceJulie, Tahoma;
+    overflow: hidden;
+}
+header{
+	width: 100%; 
+	height: 50px;
+	background-color: #404040;
+	border-bottom: 4px solid #777777;
+}
+header #LogoHeader{
+	position: relative;
+	left:50%;
+	margin-left:-45px;
+	height: 100px;
+	width : 100px;
+	background-color: #404040;
+	-Contactkit-border-radius: 100px / 100px;
+    -moz-border-radius:    100px / 100px; 
+    border-radius:         100px / 100px;
+    border-bottom: 4px solid #777777;
+    cursor: pointer;
+    z-index: 100;
+}
+
+header #LogoHeader img{
+	height: 80px;
+	position: relative; 
+	top: 10px; 
+}
+header ul{
+	position: relative; 
+	top: -100px; 
+	width: 100%; 
+	line-height:50px;
+	height :50px;
+	margin : 0; 
+	padding: 0; 
+	display: block;
+}
+header ul li{
+	margin : 20px;
+	width:200px;
+	margin-top:0;
+	display : inline-block;
+	text-decoration: none; 
+	text-align: center;
+}
+header ul #LinkCv{
+	margin-right: 180px;
+}
+header ul #LinkRealisations{
+	position : relative; 
+	left : 30px;
+	margin-left: 180px;
+}
+header ul li a{
+	text-decoration: none; 
+	color: black;
+	font-size: 30px;
+	font-family: PoliceJulie2, Tahoma;
+}
+
+header ul #LinkAbout a{
+	color : #d4145a; 
+}
+header ul #LinkContact a{
+	color : #e2be22; 
+}
+header ul #LinkCv a{
+	color : #93278f; 
+}
+header ul #LinkRealisations a{
+	color : #f36f21; 
+}
+
+header ul li a:hover{
+	text-shadow: 1px 1px #a0a0a0;
+}
+
+
+footer{
+	padding:10px;
+	position: absolute; 
+	bottom: 0px; 
+	width : 100%;
+	background-color: #404040;
+	font-family: PoliceJulie2, Tahoma;
+	font-size: 0.8em;
+	color: white;
+}
+
+footer span{
+	font-family: PoliceJulie, Tahoma;
+}
+
+/* PRELOADER */
+
+#PreLoader{
+	z-index:999;
+	position:absolute; 
+	top:0; 
+	left:0;
+	height: 100%; 
+	width: 100%; 
+	background-color: white;
+}
+
+#PreLoader > div{
+	position: relative; 
+	top : 50%; 
+	margin-top: -10px;
+}
+
+#PreLoader #Point1{
+	display:inline-block;
+    width: 20px;
+    height: 20px;
+    border : 2px solid #d4145a; 
+    background-color : white;
+    -Contactkit-border-radius: 250px / 250px;
+    -moz-border-radius:    250px / 250px; 
+    border-radius:         250px / 250px; 
+}
+
+
+#PreLoader #Point2{
+	position : relative; 
+	display:inline-block;
+    width: 20px;
+    height: 20px;
+    border : 2px solid #93278f; 
+    background-color : white;
+    -Contactkit-border-radius: 250px / 250px;
+    -moz-border-radius:    250px / 250px; 
+    border-radius:         250px / 250px; 
+}
+
+#PreLoader #Point3{
+	display:inline-block;
+    width: 20px;
+    height: 20px;
+    border : 2px solid #f36f21; 
+    background-color : white;
+    -Contactkit-border-radius: 250px / 250px;
+    -moz-border-radius:    250px / 250px; 
+    border-radius:         250px / 250px; 
+}
+
+#PreLoader #Point4{
+	position:relative; 
+	display:inline-block;
+    width: 20px;
+    height: 20px;
+    border : 2px solid #e2be22; 
+    background-color : white;
+    -Contactkit-border-radius: 250px / 250px;
+    -moz-border-radius:    250px / 250px; 
+    border-radius:         250px / 250px; 
+}

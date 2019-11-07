@@ -1,0 +1,115 @@
+
+header{
+	position:	fixed;
+	z-index: 100;
+}
+#RealisationsContent{
+	position: relative; 
+	top:50%;
+	left:50%;
+	margin-top : -250px;
+	height:500px;
+	width : 800px;
+	margin-left:-400px;
+}
+#RealisationsContent .IconRealisation{
+	height: 150px; 
+	width: 243px; 
+	display: inline-block; 
+	margin: 10px; 
+	background-color: white;
+	overflow: hidden;
+}
+#RealisationsContent .IconRealisation img{
+	position : relative; 
+	top : -150px; 
+	width: 100%;
+	min-height: 100%;
+}
+
+
+#RealisationsContent .IconRealisation .DescRealisation{
+	position: relative;
+	top:0;
+	left:0;
+	background-color: rgba(0,0,0,0.5); 
+	width: 100%; 
+	height: 100%;
+	z-index: 3;
+	color: white; 
+	font-size: 20px; 
+	visibility: hidden;
+}
+#RealisationsContent .IconRealisation .DescRealisation div{
+
+	padding : 10px;
+	background-color: rgba(0,0,0,0.8); 
+
+}
+
+#RealisationsContent .IconRealisation:hover .DescRealisation{
+	visibility: visible;
+	cursor: pointer;
+}
+
+.DetailRealisation{
+	display:none;
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0,0,0,0.5); 
+	z-index: 100;	
+}
+
+.DetailRealisation > div{
+	width: 70%; 
+	position:absolute; 
+	top: 10%; 
+	left:14%;
+	padding:1%;
+	overflow:hidden;
+	background-color: black;	
+}
+
+.DetailRealisation > div img{
+	max-width:45%;
+	max-height:600px;
+	float: left; 
+	overflow: hidden; 
+	background-color: black;
+	position: relative;	
+	background-color: white;
+}
+.DetailRealisation > div h1{
+	margin-top: 0;
+}
+
+.DetailRealisation > div > div{
+	float: right; 	
+	color: white;
+	width:45%;
+	text-align: left;
+	margin-right: 2%;
+}
+
+.DetailRealisation > div > div span{
+	text-decoration: underline;
+}
+
+.DetailRealisation > div > div > div{
+	text-align: justify; 
+	margin-top: 10px;
+}
+/* VIDEO */
+
+#videoConteneur{
+	width:50%; 
+	float: left;
+	position: relative;
+}
+
+#videoConteneur video{
+	width:100%; 
+}
